@@ -1,31 +1,13 @@
 frontend/
 │── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Sidebar.jsx
-│   │   ├── ProtectedRoute.jsx
-│   │
-│   ├── pages/
-│   │   ├── auth/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │
-│   │   ├── patient/
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Records.jsx
-│   │   │   ├── Consent.jsx
-│   │   │
-│   │   ├── doctor/
-│   │   ├── hospital/
-│   │   ├── lab/
-│   │
-│   ├── services/
-│   │   ├── api.js
-│   │
-│   ├── context/
-│   │   ├── AuthContext.jsx
-│   │
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   ├── Dashboard.jsx
+│   ├── Navbar.jsx
+│   ├── ProtectedRoute.jsx
+│   ├── api.js
 │   ├── App.jsx
-│   ├── main.jsx
+│   └── main.jsx
 │
 └── README.txt
+
