@@ -1,4 +1,4 @@
-
+﻿
 
 ## structure
 
@@ -42,3 +42,28 @@ backend/
 └── README.md
 ```
 
+# Backend Manual
+
+## Prerequisites
+- Python 3.10+ installed
+- `pip` available in PATH
+
+## Create and Activate Virtual Environment
+
+### Windows (PowerShell)
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+## Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+
+## Run the API (local dev)
+From the `backend/` folder:
+```bash
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
